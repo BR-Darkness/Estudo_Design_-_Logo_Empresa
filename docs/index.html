@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto de Portfolio - GitHub: BR-Darkness.">
+    <link rel="shortcut icon" href="img/Logo_Color.png" type="image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Projeto de Estudo</title>
+</head>
+<body>
+    <header id="Menu">
+        <button class="MenuButton" onclick="Menu()" aria-label="Botão Menu"></button>
+        <div>
+            <span id="LogoImage"></span>
+            <p id="Logo">Logo Empresa</p>
+        </div>
+        <nav id="MenuItens" class="">
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Objetivo & Performance</a></li>
+                <li><a href="#">Investidores</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Carreira</a></li>
+            </ul>
+        </nav>
+        <button class="SearchButton" aria-label="Botão Busca"></button>
+    </header>
+
+    <div id="Placeholder">
+        <!-- <p style="margin: 0; font-weight: bold; font-size: 1.75em; letter-spacing: 1px; text-transform: uppercase;">Logo Empresa</p>
+        <p style="margin: 0; font-size: 1.25em;">Seja muito bem-vindo(a)</p> -->
+    </div>
+
+    <div id="Placeholder2">
+        <span style="color: #07a;">Para mais informações <img src="img/expand_more.svg" alt="Expand More" width="18px" height="18px" style="vertical-align: middle;"></span>
+    </div>
+
+    <section class="Card">
+        <nav>
+            <div>
+                <sub>Sobre</sub>
+
+                <h3>Lorem Ipsum</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae iaculis diam. Maecenas non convallis lacus, ac congue orci. Morbi vitae odio quis ipsum tincidunt laoreet non finibus elit. Donec vehicula, augue id finibus molestie, mi nunc molestie tellus, vitae ornare velit sapien vel tellus. Nullam finibus ultrices augue, eu posuere urna sollicitudin et. Morbi placerat et dolor a tincidunt. Ut eget elementum enim, id laoreet turpis.</p>
+
+                <button class="Button">Descubra mais sobre a empresa<span><img src="img/arrow_right_Light.svg" alt="Arrow Right" width="24px" height="24px"></span></button>
+            </div>
+
+            <div>
+                <nav>
+                    <div>
+                        <h4>1234</h4>
+                        <h5><small>Lorem Ipsum Lorem Ipsum</small></h5>
+                    </div>
+
+                    <div>
+                        <h4>ABCD</h4>
+                        <h5><small>Lorem Ipsum Lorem Ipsum</small></h5>
+                    </div>
+
+                    <div>
+                        <h4>0101</h4>
+                        <h5><small>Lorem Ipsum Lorem Ipsum</small></h5>
+                    </div>
+
+                    <div>
+                        <h4>abcd</h4>
+                        <h5><small>Lorem Ipsum Lorem Ipsum</small></h5>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </section>
+
+    <section class="Card" style="background-color: #f2f4f6;">
+        <nav>
+            <div>
+                <picture>
+                    <source srcset="img/webp/02.webp" type="image/webp">
+                    <img src="img/02.jpg" alt="Test" width="400px" height="400px">
+                    <figcaption>Objetivo & Performance - Imagem</figcaption>
+                </picture>
+            </div>
+
+            <div>
+                <sub  style="color: #136;">Objetivo & Performance</sub>
+
+                <h3  style="color: #000;">Lorem Ipsum</h3>
+
+                <p style="color: #000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae iaculis diam. Maecenas non convallis lacus, ac congue orci. Morbi vitae odio quis ipsum tincidunt laoreet non finibus elit. Donec vehicula, augue id finibus molestie, mi nunc molestie tellus, vitae ornare velit sapien vel tellus. Nullam finibus ultrices augue, eu posuere urna sollicitudin et. Morbi placerat et dolor a tincidunt. Ut eget elementum enim, id laoreet turpis.</p>
+
+                <button class="Button">Veja mais<span><img src="img/arrow_right_Light.svg" alt="Arrow Right" width="24px" height="24px"></span></button>
+            </div>
+        </nav>
+    </section>
+
+    <section class="Card">
+        <nav>
+            <div>
+                <sub>Projetos</sub>
+
+                <h3>Lorem Ipsum</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae iaculis diam. Maecenas non convallis lacus, ac congue orci. Morbi vitae odio quis ipsum tincidunt laoreet non finibus elit. Donec vehicula, augue id finibus molestie, mi nunc molestie tellus, vitae ornare velit sapien vel tellus. Nullam finibus ultrices augue, eu posuere urna sollicitudin et. Morbi placerat et dolor a tincidunt. Ut eget elementum enim, id laoreet turpis.</p>
+
+                <button class="Button">Galeria de Projetos<span><img src="img/arrow_right_Light.svg" alt="Arrow Right" width="24px" height="24px"></span></button>
+            </div>
+
+            <div>
+                <picture>
+                    <source srcset="img/webp/03.webp" type="image/webp">
+                    <img src="img/03.jpg" alt="Test" width="400px" height="400px">
+                    <figcaption>Projetos - Imagem</figcaption>
+                </picture>
+            </div>
+        </nav>
+    </section>
+
+    <footer>
+        <nav>
+            <div id="FooterDiv-1">
+                <div style="max-width: 600px;">
+                    <p class="FooterLogo"><img src="img/Logo_Color.png" alt="Logo Empresa Colorido" width="36px" height="36px">Logo Empresa</p>
+
+                    <h3>Download</h3>
+
+                    <nav>
+                        <figure class="FooterImage">
+                            <picture>
+                                <source srcset="img/webp/01.webp" type="image/webp">
+                                <img src="img/01.jpg" alt="Imagem de Carreiras" width="200px" height="250px">
+                                <figcaption>Carreiras</figcaption>
+                            </picture>
+                        </figure>
+        
+                        <figure class="FooterImage">
+                            <picture>
+                                <source srcset="img/webp/02.webp" type="image/webp">
+                                <img src="img/02.jpg" alt="Imagem de Autores" width="200px" height="250px">
+                                <figcaption>Autores</figcaption>
+                            </picture>
+                        </figure>
+                    </nav>
+
+                    <p><small><b>Copyright © 2023–2024 Logo Empresa - Apenas um projeto de estudos.</b></small></p>
+                </div>
+            </div>
+
+            <div id="FooterDiv-2">
+                <div style="max-width: 600px;">
+                    <nav>
+                        <div>
+                            <h3>Inscreva-se para alertas</h3>
+    
+                            <p>Se inscreva para receber nossos alertas</p>
+    
+                            <button class="Button" style="color: #000; background-color: #fff;">Inscrever-se<span><img src="img/arrow_right_Dark.svg" alt="Arrow Right" width="24px" height="24px"></span></button>
+                        </div>
+
+                        <div>
+                            <h3>Links Rápidos</h3>
+    
+                            <ul class="QuickLinks">
+                                <li><a href="#">Mídia</a></li>
+                                <li><a href="#">Investidores</a></li>
+                                <li><a href="#">Carreiras</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div>
+                        <h3>Mantenha-se em contato</h3>
+                        <ul class="SocialLinks">
+                            <li><a href="#"><img src="img/facebook.svg" alt="Facebook" width="32px" height="32px"></a></li>
+                            <li><a href="#"><img src="img/linkedin.svg" alt="linkedin" width="32px" height="32px"></a></li>
+                            <li><a href="#"><img src="img/twitter.svg" alt="Twitter" width="32px" height="32px"></a></li>
+                            <li><a href="#"><img src="img/github.svg" alt="GitHub" width="32px" height="32px"></a></li>
+                        </ul>
+                    </div>
+
+                        <ul class="OtherLinks">
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">Configurações de Cookies</a></li>
+                            <li><a href="#">Nossas políticas corporativas</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+
+                </div>
+            </div>
+        </nav>
+    </footer>
+    <script async>Menu = () => document.getElementById("MenuItens").classList.toggle("OpenMenu");</script>
+    <!-- Imagens Utilizadas no Projeto:
+        01 - Foto de Yuliia Tretynychenko: https://www.pexels.com/pt-br/foto/maos-musico-musicista-pessoa-11895659/
+        02 - Foto de Saliha Sevim: https://www.pexels.com/pt-br/foto/livro-copo-taca-caneca-9922042/
+        03 - Foto de Rakicevic Nenad: https://www.pexels.com/pt-br/foto/silhueta-da-pessoa-segurando-o-frasco-de-vidro-de-vidro-1274260/
+        04 - Foto de paul jousseau: https://www.pexels.com/pt-br/foto/antigo-antepassados-anciao-arquitetura-15413559/
+     -->
+</body>
+</html>
